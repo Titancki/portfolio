@@ -41,7 +41,7 @@ export default function Devweb() {
         {/* Images avec transitions */}
         <img
           id="django_bg"
-          src="/Djangopolis.jpg"
+          src="/djangopolis.jpg"
           className={`object-cover h-full w-full absolute top-0 transition-opacity duration-500 ease-in-out ${currentIndex === 0 ? "opacity-100" : "opacity-0"}`}
         />
         <img

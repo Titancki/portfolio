@@ -1,0 +1,1 @@
+import{c as e,e as t}from"/build/_shared/chunk-MFPRU5OA.js";var n=e(t(),1),i=()=>[{title:"Guillaume Ouf - Hobby"},{name:"description",content:"Welcome to Remix!"}];function o(){return(0,n.jsx)("div",{id:"main",className:"bg-[#E7D5AD] grow"})}export{o as default,i as meta};
