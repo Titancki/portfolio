@@ -8,8 +8,8 @@ jobs:
       - name: Deploy to OVH hosting
         uses: pitscher/ovh-deploy-hosting-action@v1
         env:
-          OVH_HOSTING_USER: ${{ secrets.guillak }}
-          OVH_HOSTING_PASSWORD: ${{ secrets.Aqwzsxedc123 }}
+          OVH_HOSTING_USER: guillak
+          OVH_HOSTING_PASSWORD: Aqwzsxedc123
           OVH_HOSTING_DOMAIN: ssh.cluster021.hosting.ovh.net
           REPOSITORY_NAME: portfolio
-          REPOSITORY_URL: https://github.com/me/my-repo.git
+          REPOSITORY_URL: https://github.com/Titancki/portfolio.git
