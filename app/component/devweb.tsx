@@ -1,13 +1,6 @@
 import { useState } from "react";
-import type { MetaFunction } from "@remix-run/node";
 import Quest from "~/component/quest";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Guillaume Ouf - Dev Web" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
 
 export default function Devweb() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,7 +28,7 @@ export default function Devweb() {
 
   const [activeQuest, setActiveQuest] = useState<number | null>(null);
   return (
-    <div id="main" className="bg-[#232221] grow overflow-hidden">
+    <div id="main" className="bg-[#232221] h-full overflow-hidden">
       {/* Header avec images et titres */}
       <div className="h-[200px] relative border-b-4 border-[#481A1A] overflow-hidden">
         {/* Images avec transitions */}
