@@ -1,10 +1,10 @@
 import type { MetaFunction } from "@remix-run/node";
 import { useState } from "react";
-import Devweb from "~/component/devweb";
-import Gamedev from "~/component/gamedev";
-import Hobby from "~/component/hobby";
-import Otherexp from "~/component/otherexp";
-import Uiux from "~/component/uiux";
+import Devweb from "~/sections/devweb";
+import Gamedev from "~/sections/gamedev";
+import Hobby from "~/sections/hobby";
+import Otherexp from "~/sections/otherexp";
+import Uiux from "~/sections/uiux";
 
 export const meta: MetaFunction = () => {
   return [
